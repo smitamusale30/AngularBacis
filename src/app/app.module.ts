@@ -10,6 +10,7 @@ import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.compon
 import { FormsModule } from '@angular/forms';
 import { SturctualDirectiveComponent } from './sturctual-directive/sturctual-directive.component';
 import { ComponentInetractionComponent } from './component-inetraction/component-inetraction.component';
+import { PipesComponent } from './pipes/pipes.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ComponentInetractionComponent } from './component-inetraction/component
     TemplateRefVarComponent,
     TwoWayBindingComponent,
     SturctualDirectiveComponent,
-    ComponentInetractionComponent
+    ComponentInetractionComponent,
+    PipesComponent
   ],
   imports: [
     BrowserModule,
