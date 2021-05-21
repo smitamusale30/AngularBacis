@@ -6,17 +6,21 @@ import { AppComponent } from './app.component';
 import { DemoComponent } from './demo/demo.component';
 import { BindingComponent } from './binding/binding.component';
 import { TemplateRefVarComponent } from './template-ref-var/template-ref-var.component';
+import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     DemoComponent,
     BindingComponent,
-    TemplateRefVarComponent
+    TemplateRefVarComponent,
+    TwoWayBindingComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
