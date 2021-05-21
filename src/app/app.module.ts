@@ -8,6 +8,7 @@ import { BindingComponent } from './binding/binding.component';
 import { TemplateRefVarComponent } from './template-ref-var/template-ref-var.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { FormsModule } from '@angular/forms';
+import { SturctualDirectiveComponent } from './sturctual-directive/sturctual-directive.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FormsModule } from '@angular/forms';
     DemoComponent,
     BindingComponent,
     TemplateRefVarComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    SturctualDirectiveComponent
   ],
   imports: [
     BrowserModule,
