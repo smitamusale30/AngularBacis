@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-component-inetraction',
@@ -11,9 +11,16 @@ export class ComponentInetractionComponent implements OnInit {
   @Input('parentData') public name: any;
   //@Input() public parentData:any;
 
+  @Output() public childEvent = new EventEmitter();
+
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  fireEvent()
+  {
+    this.childEvent.emit('hey CodeVolution');
+  }
 }

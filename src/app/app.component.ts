@@ -9,4 +9,6 @@ export class AppComponent {
   title = 'AngularBasic';
   //componentInteraction
   public userId = "XYZ"
+
+  public messages="";
 }
