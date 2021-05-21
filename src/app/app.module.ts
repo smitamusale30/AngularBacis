@@ -9,6 +9,7 @@ import { TemplateRefVarComponent } from './template-ref-var/template-ref-var.com
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { FormsModule } from '@angular/forms';
 import { SturctualDirectiveComponent } from './sturctual-directive/sturctual-directive.component';
+import { ComponentInetractionComponent } from './component-inetraction/component-inetraction.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SturctualDirectiveComponent } from './sturctual-directive/sturctual-dir
     BindingComponent,
     TemplateRefVarComponent,
     TwoWayBindingComponent,
-    SturctualDirectiveComponent
+    SturctualDirectiveComponent,
+    ComponentInetractionComponent
   ],
   imports: [
     BrowserModule,

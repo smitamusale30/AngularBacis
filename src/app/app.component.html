@@ -1,10 +1,14 @@
 
 <h1>
-  Hello World
+  Hello World for app component (parent component)
 </h1>
 <!-- <app-demo></app-demo> -->
 <!-- <app-binding></app-binding> -->
 <!-- <app-template-ref-var></app-template-ref-var> -->
 <!-- <app-two-way-binding></app-two-way-binding> -->
-<app-sturctual-directive></app-sturctual-directive>
+<!-- <app-sturctual-directive></app-sturctual-directive> -->
+<div style="text-align: center;">
+  <h1>Welcome</h1>
+  </div>
+  <app-component-inetraction [parentData]="userId"></app-component-inetraction>
 <router-outlet></router-outlet>
